@@ -30,7 +30,6 @@ const tasks = [{
     return acc;
   }, {});
 
-localStorage.setItem('objOfTasks', objOfTasks);
 
   // Elements UI
   const listContainer = document.querySelector('.tasks-list-section .list-group');
